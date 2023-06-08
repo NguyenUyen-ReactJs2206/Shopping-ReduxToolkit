@@ -10,7 +10,8 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        orange: '#ee4d2d'
+        bgFormLogin: '#999',
+        bgFooter: '#f4f4f6'
       }
     }
   },

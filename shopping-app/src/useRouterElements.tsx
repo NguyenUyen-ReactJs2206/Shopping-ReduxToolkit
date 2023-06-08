@@ -6,7 +6,6 @@ import RegisterLayout from './Layout/RegisterLayout'
 
 export default function useRouterElements() {
   const routeElement = useRoutes([
-    { path: '/', element: <ProductList /> },
     {
       path: '/login',
       element: (

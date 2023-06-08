@@ -1,29 +1,74 @@
 export default function Footer() {
   return (
-    <div className='bg-neutral-100 py-16'>
-      <div className='container'>
-        <div className='grid grid-cols-1 gap-4 lg:grid-cols-3'>
-          <div className='lg:col-span-1'>© 2023 Shopee. Tất cả các quyền được bảo lưu.</div>
-          <div className='lg:col-span-2'>
-            <div>
-              Quốc gia & Khu vực: Singapore Indonesia Đài Loan Thái Lan Malaysia Việt Nam Philippines Brazil México
-              Colombia Chile
+    <div className='bg-bgFooter'>
+      <div className='container py-10'>
+        <div className='grid grid-cols-12'>
+          <div className='col-span-3'>
+            <h3>LIÊN HỆ VỚI LAZADA</h3>
+            <ul className='mt-2 cursor-pointer text-sm leading-4'>
+              <li className='hover:underline'>Hotline & Chat trực tuyến (24/7)</li>
+              <li className='hover:underline'>Trung tâm hỗ trợ</li>
+              <li className='hover:underline'>Hướng dẫn đặt hàng</li>
+              <li className='hover:underline'>Giao hàng & Nhận hàng</li>
+              <li className='hover:underline'>Chính sách hàng nhập khẩu</li>
+              <li className='hover:underline'>Hướng dẫn đổi trả hàng</li>
+            </ul>
+          </div>
+          <div className='col-span-3'>
+            <h3>LAZADA VIỆT NAM</h3>
+            <ul className='mt-2 cursor-pointer text-sm leading-4'>
+              <li className='hover:underline'>Tất cả danh mục</li>
+              <li className='hover:underline'>Về Lazada Việt Nam</li>
+              <li className='hover:underline'>Bán hàng cùng Lazada</li>
+              <li className='hover:underline'>Chương trình Lazada Afﬁliate</li>
+              <li className='hover:underline'>Tuyển dụng</li>
+              <li className='hover:underline'>Điều khoản sử dụng</li>
+              <li className='hover:underline'>Chính sách bảo mật</li>
+              <li className='hover:underline'>Báo chí</li>
+              <li className='hover:underline'>Bảo vệ quyền sở hữu trí tuệ</li>
+              <li className='hover:underline'>Quy chế hoạt động sàn Lazada</li>
+              <li className='hover:underline'>Quy trình giải quyết tranh chấp, khiếu nại</li>
+            </ul>
+          </div>
+          <div className='col-span-6'>
+            <div className='flex'>
+              <div className='flex py-4'>
+                <div className='h-[50px] w-[50px] rounded-md'>
+                  <img
+                    src='https://lzd-img-global.slatic.net/g/tps/tfs/TB1iTziekWE3KVjSZSyXXXocXXa-42-42.png'
+                    alt='img'
+                  />
+                </div>
+                <div className='px-2'>
+                  <div className='text-md text-orange-500'>Go where your heart beats</div>
+                  <div className='text-md'>Tải App Lazada</div>
+                </div>
+              </div>
+              <div className='flex flex-wrap py-4'>
+                <div className='h-[60px] w-[150px] cursor-pointer rounded-sm pl-2'>
+                  <img
+                    src='https://upload.wikimedia.org/wikipedia/commons/5/5d/Available_on_the_App_Store_%28black%29.png'
+                    alt='#'
+                  />
+                </div>
+                <div className='h-[60px] w-[150px] cursor-pointer rounded-sm pl-2'>
+                  <img src='https://www.fcsok.org/wp-content/uploads/2020/04/get-it-on-google-play-badge.png' alt='#' />
+                </div>
+                <div className='h-[60px] w-[150px] cursor-pointer rounded-sm pl-2'>
+                  <img src='https://news.ebscer.com/wp-content/uploads/2022/01/Huawei.png' alt='#' />
+                </div>
+              </div>
+            </div>
+            <h4>CÔNG TY TNHH RECESS</h4>
+            <div className='text-[12px]'>
+              Giấy CNĐKDN: 0308808576 – Ngày cấp: 06/5/2009, được sửa đổi lần thứ 19 ngày 15/8/2019.
+            </div>
+            <div className='text-[12px]'> Cơ quan cấp: Phòng Đăng ký kinh doanh – Sở kế hoạch và Đầu tư TP.HCM</div>
+            <div className='text-[12px]'>
+              Địa chỉ đăng ký kinh doanh: Tầng 19, Tòa nhà Saigon Centre – Tháp 2, 67 Lê Lợi, Phường Bến Nghé, Quận 1,
+              Tp. Hồ Chí Minh, Việt Nam.
             </div>
           </div>
-        </div>
-        <div className='mt-10 text-center text-sm'>
-          <div>Công ty TNHH Shopee</div>
-          <div className='mt-2'>
-            Địa chỉ: Tầng 4-5-6, Tòa nhà Capital Place, số 29 đường Liễu Giai, Phường Ngọc Khánh, Quận Ba Đình, Thành
-            phố Hà Nội, Việt Nam. Tổng đài hỗ trợ: 19001221 - Email: cskh@hotro.shopee.vn
-          </div>
-          <div className='mt-2'>
-            Chịu Trách Nhiệm Quản Lý Nội Dung: Nguyễn Đức Trí - Điện thoại liên hệ: 024 73081221 (ext 4678)
-          </div>
-          <div className='mt-2'>
-            Mã số doanh nghiệp: 0106773786 do Sở Kế hoạch & Đầu tư TP Hà Nội cấp lần đầu ngày 10/02/2015
-          </div>
-          <div className='mt-2'>© 2015 - Bản quyền thuộc về Công ty TNHH Shopee</div>
         </div>
       </div>
     </div>
