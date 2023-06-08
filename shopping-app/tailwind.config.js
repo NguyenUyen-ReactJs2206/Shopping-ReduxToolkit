@@ -10,8 +10,13 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        bgFormLogin: '#999',
-        bgFooter: '#f4f4f6'
+        bgFormLogin: '#EFF0F5;',
+        bgFooter: '#f4f4f6',
+        textFooter: '#0f136d',
+        orange: '#f57224',
+        orangeHover:"#d34836",
+        blue: '#3b5998',
+        red: '#d34836'
       }
     }
   },

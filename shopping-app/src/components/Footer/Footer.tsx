@@ -3,7 +3,7 @@ export default function Footer() {
     <div className='bg-bgFooter'>
       <div className='container py-10'>
         <div className='grid grid-cols-12'>
-          <div className='col-span-3'>
+          <div className='col-span-3 text-textFooter'>
             <h3>LIÊN HỆ VỚI LAZADA</h3>
             <ul className='mt-2 cursor-pointer text-sm leading-4'>
               <li className='hover:underline'>Hotline & Chat trực tuyến (24/7)</li>
@@ -14,10 +14,10 @@ export default function Footer() {
               <li className='hover:underline'>Hướng dẫn đổi trả hàng</li>
             </ul>
           </div>
-          <div className='col-span-3'>
+          <div className='col-span-3 text-textFooter'>
             <h3>LAZADA VIỆT NAM</h3>
             <ul className='mt-2 cursor-pointer text-sm leading-4'>
-              <li className='hover:underline'>Tất cả danh mục</li>
+              <li className='text-textFooterLi hover:underline'>Tất cả danh mục</li>
               <li className='hover:underline'>Về Lazada Việt Nam</li>
               <li className='hover:underline'>Bán hàng cùng Lazada</li>
               <li className='hover:underline'>Chương trình Lazada Afﬁliate</li>
@@ -30,10 +30,10 @@ export default function Footer() {
               <li className='hover:underline'>Quy trình giải quyết tranh chấp, khiếu nại</li>
             </ul>
           </div>
-          <div className='col-span-6'>
+          <div className='col-span-6 text-textFooter'>
             <div className='flex'>
-              <div className='flex py-4'>
-                <div className='h-[50px] w-[50px] rounded-md'>
+              <div className='flex w-[300px] py-4'>
+                <div className='h-[50px] w-[50px] flex-shrink-0 rounded-md'>
                   <img
                     src='https://lzd-img-global.slatic.net/g/tps/tfs/TB1iTziekWE3KVjSZSyXXXocXXa-42-42.png'
                     alt='img'
@@ -45,16 +45,16 @@ export default function Footer() {
                 </div>
               </div>
               <div className='flex flex-wrap py-4'>
-                <div className='h-[60px] w-[150px] cursor-pointer rounded-sm pl-2'>
+                <div className='h-[60px] w-[140px] cursor-pointer rounded-sm pl-2'>
                   <img
                     src='https://upload.wikimedia.org/wikipedia/commons/5/5d/Available_on_the_App_Store_%28black%29.png'
                     alt='#'
                   />
                 </div>
-                <div className='h-[60px] w-[150px] cursor-pointer rounded-sm pl-2'>
+                <div className='h-[60px] w-[140px] cursor-pointer rounded-sm pl-2'>
                   <img src='https://www.fcsok.org/wp-content/uploads/2020/04/get-it-on-google-play-badge.png' alt='#' />
                 </div>
-                <div className='h-[60px] w-[150px] cursor-pointer rounded-sm pl-2'>
+                <div className='h-[60px] w-[140px] cursor-pointer rounded-sm pl-2'>
                   <img src='https://news.ebscer.com/wp-content/uploads/2022/01/Huawei.png' alt='#' />
                 </div>
               </div>
