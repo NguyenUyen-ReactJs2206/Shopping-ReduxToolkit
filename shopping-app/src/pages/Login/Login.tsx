@@ -54,7 +54,7 @@ export default function Login() {
                 <div className='md:col-span-5'>
                   <div className='md:px-2 '>
                     <div>
-                      <button className='mt-4 w-full rounded-sm bg-orange py-4 text-center uppercase text-white hover:bg-orangeHover'>
+                      <button className='mt-4 w-full rounded-sm bg-orange py-4 text-center uppercase text-white duration-150 hover:bg-orangeHover'>
                         Đăng nhập
                       </button>
                     </div>
