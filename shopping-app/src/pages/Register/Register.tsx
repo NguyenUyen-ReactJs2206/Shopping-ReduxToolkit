@@ -37,8 +37,8 @@ export default function Register() {
         <div className='grid grid-cols-12'>
           <div className='col-span-12 md:col-span-10 md:col-start-2 xl:col-span-8 xl:col-start-3 '>
             <div className='flex-row sm:flex sm:justify-between'>
-              <div className='text-xl'>Chào mừng đến với Lazada. Đăng nhập ngay!</div>
-              <div className='pt-3 text-[10px]'> Thành viên mới? Đăng ký tại đây</div>
+              <div className='text-xl'>Tạo tài khoản Lazada</div>
+              <div className='pt-3 text-[10px]'>Bạn đã là thành viên? Đăng nhập tại đây</div>
             </div>
             <form className='my-8 rounded-sm bg-white px-8 py-8 sm:px-24 md:px-6 '>
               <div className='flex-row md:grid md:grid-cols-12'>
@@ -77,7 +77,6 @@ export default function Register() {
                         className='mt-2 w-full rounded-sm border border-gray-300 p-2 text-sm outline-emerald-400/50'
                       />
                     </div>
-                    <div className='my-3 flex justify-end text-[12px] text-teal-500/80'>Quên mật khẩu?</div>
                   </div>
                 </div>
                 <div className='md:col-span-5'>
